@@ -1,15 +1,26 @@
 body {
   width: initial;
 }
+.navbar {
+  transition: 0.5s;
+}
 .jumbotron {
   padding-top: 8em;
   padding-bottom: 5em;
   background-color: rgb(231, 231, 231);
+  background-image: url(../img/bgjum.jpg);
+  background-attachment: fixed;
+  box-shadow: black;
+}
+.jumbotron .row {
+  color: aliceblue;
 }
 .jumbotron img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  border: none;
 }
 
 .namabesar {
@@ -21,7 +32,12 @@ body {
   padding-bottom: 5em;
   margin-left: 20%;
   margin-right: 20%;
-  height: 600px;
+  height: 700px;
+}
+.about p {
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about h2 {
   padding-bottom: 15px;
@@ -30,7 +46,13 @@ body {
   display: grid;
   padding-top: 5em;
   padding-bottom: 3em;
-  background-color: rgb(218, 218, 218);
+  background-color: rgb(255, 255, 255);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20px;
+}
+.portfolio h2 {
+  color: rgb(0, 0, 0);
 }
 .contact {
   display: block;
@@ -40,11 +62,12 @@ body {
   width: inherit;
   height: 700px;
 }
-.footer {
-  background-color: black;
-  height: 75px;
+.alert .btn-close {
+  float: right;
 }
-.footer p {
+footer {
+  background-color: black;
+  height: 70px;
+  color: aliceblue;
   padding-top: 25px;
-  color: rgb(255, 255, 255);
 }
