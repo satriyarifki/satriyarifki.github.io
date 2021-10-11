@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Satriya Rifki</title>
   </head>
-  <body>
+  <body data-spy="scroll">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm fixed-top bg-opacity-100">
       <div class="container">
@@ -68,10 +68,10 @@
         <div class="row text-center">
           <p> Hello, You can call me Satriya. As a Student of IT, I need to build my portfolio with any kind skills that I have. in this page I'll show what I did before with my capacity. </p>
         </div>
-        <br> <br><br> <br> <br>
+        <br> <br><br> 
         <h3 class="text-center">My Skills</h3>
         <br>
-        <div class="container">
+        <div class="">
           <div class="row">   
             <div class="col-sm-6">
               <div class="skill-bar wow slideInLeft animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: slideInLeft;">
@@ -125,6 +125,29 @@
       </div>
     </section>
     <!-- About End -->
+
+    <!-- Begin cta -->
+    <section id="cta-section">
+      <div class="cta">
+        <div class="container">
+            <div class="row justify-content-center">
+              
+                <div class="col-md-6" style="text-align: center;">
+                    <h1 >Download My CV</h1>
+                      <p >or it's an option, you can know more about me</p>
+                  </div>
+                  
+                  <div class="col-md-3">
+                    <div class="cta-btn wow bounceInRight" data-wow-delay="0.4s">
+                      <a class="btn btn-success btn-lg wow bounceInRight" href="http://www.imransdesign.com/" target="_blank" role="button" style="color:white">Download</a>
+                    </div>
+                  </div>
+                  
+              </div> <!-- /.row -->
+          </div> <!-- /.container -->
+      </div>
+    </section>
+    <!-- End cta -->
 
     <!-- Portfolio -->
     <section class="portfolio shadow " id="portfolio-">
@@ -306,8 +329,16 @@
           <br>
           <form name="formC">
             <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Your name" name="namesender">
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
               <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Subject" name="subject">
+              <label for="floatingInput">Subject</label>
             </div>
             <div class="form-floating">
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" name="comment"></textarea>
@@ -336,6 +367,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scriptNih.js"></script>
+    <script src="js/smoothscroll.js"></script>
     <!-- <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
     <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script> -->

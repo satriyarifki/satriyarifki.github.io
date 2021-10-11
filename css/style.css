@@ -32,7 +32,7 @@ body {
   padding-bottom: 5em;
   margin-left: 20%;
   margin-right: 20%;
-  height: 700px;
+  height: 600px;
 }
 .about p {
   width: 100%;
@@ -42,13 +42,25 @@ body {
 .about h2 {
   padding-bottom: 15px;
 }
+
+/* Begin cta section */
+#cta-section {
+  margin-top: 30px;
+  background-color: rgb(228, 228, 228);
+  padding: 70px 0 80px;
+  margin-bottom: 50px;
+}
+.cta-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+/* End cta section */
+
 .portfolio {
   display: grid;
   padding-top: 5em;
   padding-bottom: 3em;
   background-color: rgb(255, 255, 255);
-  margin-left: 10%;
-  margin-right: 10%;
   border-radius: 20px;
 }
 .portfolio h2 {
