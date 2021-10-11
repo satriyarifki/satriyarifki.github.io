@@ -66,16 +66,34 @@ body {
 .portfolio h2 {
   color: rgb(0, 0, 0);
 }
+@media (min-width: 991px) {
+  .contact {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 .contact {
   display: block;
   padding-top: 5em;
-  padding-left: 25%;
-  padding-right: 25%;
   width: inherit;
   height: 700px;
 }
 .alert .btn-close {
   float: right;
+}
+.social-list {
+  list-style: none;
+}
+ul.social-list {
+  text-align: center;
+  margin: 0 auto;
+}
+ul.social-list li :hover {
+  opacity: 80%;
+}
+ul.social-list li {
+  display: inline-block;
+  margin-right: 20px;
 }
 footer {
   background-color: black;
