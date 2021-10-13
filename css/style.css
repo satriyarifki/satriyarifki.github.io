@@ -1,5 +1,6 @@
 body {
   width: initial;
+  background-color: rgb(250, 255, 250);
 }
 .navbar {
   transition: 0.5s;
@@ -47,8 +48,8 @@ body {
 #cta-section {
   margin-top: 30px;
   background-color: rgb(228, 228, 228);
+  background-blend-mode: soft-light;
   padding: 70px 0 80px;
-  margin-bottom: 50px;
 }
 .cta-btn {
   text-align: center;
@@ -60,8 +61,15 @@ body {
   display: grid;
   padding-top: 5em;
   padding-bottom: 3em;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(250, 255, 250);
   border-radius: 20px;
+}
+.devider {
+  width: 100%;
+  height: 20px;
+  background: url('../img/devid.png') no-repeat center;
+  margin: 5px 0 10px;
+  opacity: 30%;
 }
 .portfolio h2 {
   color: rgb(0, 0, 0);
